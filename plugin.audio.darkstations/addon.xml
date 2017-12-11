@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.audio.darkstations"
+    name="DarkStations"
+    version="1.0.3" 
+    provider-name="Papandy / orig. by SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Radiosender der Gothic-Szene</summary>
+		<description>
+			Dies ist ein Addon für alle die, die Musik aus der Schwarzen/Gothik-Szene gerne hören. Es stellt euch schnell und unkompliziert einige Radiosender der Szene zur Verfügung. So z.Bsp.: Mera Luna FM, Radio Schwarze Welle, Radio Hazzard of Darkness und einige mehr.
+Der originale Code ist von SH Germania, ich habe für dieses Addon nur den Code modifiziert!
+		</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
