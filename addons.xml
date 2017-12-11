@@ -24,4 +24,20 @@ Der originale Code ist von SH Germania, ich habe für dieses Addon nur den Code 
 		<email></email>
 	</extension>
 </addon>
+<addon
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.papandy" name="[COLOR blue]Repo Papandy[/COLOR]" version="1.0.0" provider-name="[COLOR blue]Papandy[/COLOR]">
+    <extension point="xbmc.addon.repository" name="Repo Papandy">
+		<info compressed="false">https://raw.githubusercontent.com/papandy/testrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/papandy/testrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/papandy/testrepo/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR blue]Repo Papandy[/COLOR]</summary>
+        <description>[COLOR blue]
+					Repo zu Testzwecken!
+</description>
+        <platform>all</platform>
+    </extension>
+</addon>
 </addons>
